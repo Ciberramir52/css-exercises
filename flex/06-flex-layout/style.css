@@ -23,5 +23,66 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  /* height: 100%; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* .header {
+  top: 0;
+} */
+
+.header, .footer {
+  /* position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 10; */
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eee;
+  /* bottom: 0;  */
+}
+
+/* .right-links, .left-links {
+  display: flex;
+  gap: 16px;
+  margin-right: 24px;
+} */
+
+/* .input {
+  margin-top: 16px;
+} */
+
+ul {
+  list-style: none;
+  gap: 16px;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
